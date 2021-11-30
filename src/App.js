@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import DropdownB from "./Components/Dropdown/Dropdown";
+import NavB from "./Components/Nav/Nav";
 
 function App() {
   return (
     <Container>
-      <DropdownB />
+      <NavB />
     </Container>
   );
 }
