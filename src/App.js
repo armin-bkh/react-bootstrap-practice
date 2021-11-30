@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import CardB from "./Components/Card/Card";
+import CloseButtonB from "./Components/CloseButton/CloseButton";
 
 function App() {
   return (
     <Container>
-      <CardB />
+      <CloseButtonB />
     </Container>
   );
 }

@@ -1,4 +1,4 @@
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, ListGroup, Row } from "react-bootstrap";
 
 const cards = [
   {
@@ -38,13 +38,22 @@ const CardB = () => {
         <Col className={`mb-4`} xs={12} md={6} xl={4} key={i}>
           <Card>
             <Card.Img variant="top" src={item.img} alt={item.header} />
-            <Card.Header>{item.header}</Card.Header>
+            <Card.Header as="h5">{item.header}</Card.Header>
             <Card.Body>
               <Card.Title>{item.bodyTitle}</Card.Title>
               <Card.Text>{item.bodyText}</Card.Text>
+              <button className={`btn btn-primary d-block w-100 mt-5`}>
+                click me
+              </button>
             </Card.Body>
-            <button className={`btn btn-primary`}>click me</button>
-            <Card.Footer className={`text-center`}>{item.footer}</Card.Footer>
+            <ListGroup variant="flush">
+              <ListGroup.Item>Cras justo odio</ListGroup.Item>
+              <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+              <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            </ListGroup>
+            <Card.Footer className={`text-muted text-center`}>
+              {item.footer}
+            </Card.Footer>
           </Card>
         </Col>
       ))}
