@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import BreadcrumbB from "./Components/Breadcrumb/Breadcrumb";
+import CardB from "./Components/Card/Card";
 
 function App() {
   return (
     <Container>
-      <BreadcrumbB />
+      <CardB />
     </Container>
   );
 }
