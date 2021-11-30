@@ -1,8 +1,11 @@
+import { Container } from "react-bootstrap";
+import AccordionB from "./Components/Accordion/Accordion";
+
 function App() {
   return (
-    <div>
-      <button>hello</button>
-    </div>
+    <Container>
+      <AccordionB />
+    </Container>
   );
 }
 
