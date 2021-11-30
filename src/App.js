@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import CloseButtonB from "./Components/CloseButton/CloseButton";
+import DropdownB from "./Components/Dropdown/Dropdown";
 
 function App() {
   return (
     <Container>
-      <CloseButtonB />
+      <DropdownB />
     </Container>
   );
 }
