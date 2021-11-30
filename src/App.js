@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
-import AccordionB from "./Components/Accordion/Accordion";
+import BreadcrumbB from "./Components/Breadcrumb/Breadcrumb";
 
 function App() {
   return (
     <Container>
-      <AccordionB />
+      <BreadcrumbB />
     </Container>
   );
 }
